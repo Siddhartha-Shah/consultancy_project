@@ -1,0 +1,126 @@
+.dashboardContainer {
+  margin-top: 30px;
+  margin-left:30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  color:black;
+
+
+}
+.iconStyle{
+  color:cornflowerblue;
+  height: 100%;
+  width: 100%;
+}
+.dashboardContainer p{
+  padding-left: 10px;
+  color: grey;
+  font-size: 30px;
+}
+.dashboardContainer .payment{
+  margin:10px;
+  background-color: aquamarine;
+  padding: 5px;
+}
+.dashboardContainer .payment P{
+  font-size:20px;
+  color: black;
+}
+.dashboardContainer .collection_and_discount_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 10px 0px;
+}
+.dashboardContainer .collection_and_discount_container .collection_and_discount{
+ 
+  width: 350px;
+  height: 160px;
+  background-color: aliceblue;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding:0px 15px;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(96, 79, 79, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(60, 48, 48, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(119, 104, 104, 0.6);
+    -o-box-shadow: 0 0 10px rgba(130, 107, 107, 0.6);
+}
+.dashboardContainer .collection_and_discount_container .collection_and_discount .total{
+  font-size: 15px;
+  color: grey;
+  font-weight: bold;
+}
+.dashboardContainer .collection_and_discount_container .collection_and_discount .amount_and_icon{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.dashboardContainer .collection_and_discount_container .collection_and_discount .amount_and_icon p{
+  font-size: 30px;
+  color: black;
+}
+.dashboardContainer .collection_and_discount_container .collection_and_discount .amount_and_icon .icon{
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #80ffff;
+  padding: 2%;
+  border-radius: 50%;
+}
+.dashboardContainer .topCoursesContainer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+ 
+}
+.dashboardContainer  .topCoursesContainer .topCourses{
+
+  height: 90px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(96, 79, 79, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(60, 48, 48, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(119, 104, 104, 0.6);
+    -o-box-shadow: 0 0 10px rgba(130, 107, 107, 0.6);
+}
+.dashboardContainer  .topCoursesContainer .topCourses .key{
+  font-size: 40px;
+  color: gray;
+  
+}
+.dashboardContainer  .topCoursesContainer .topCourses .name{
+  color: gray;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.dashboardContainer .latestInventory{
+  width:300px;
+  height:350px;
+  margin:20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: self-start;
+  gap:10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(96, 79, 79, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(60, 48, 48, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(119, 104, 104, 0.6);
+    -o-box-shadow: 0 0 10px rgba(130, 107, 107, 0.6);
+
+}
+.dashboardContainer .latestInventory .tag{
+  font-size: 16px;
+  color:black;
+  
+
+}

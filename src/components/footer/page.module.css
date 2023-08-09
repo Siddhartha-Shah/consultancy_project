@@ -1,0 +1,13 @@
+.footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: black;
+      }
+  .hrtag{
+    margin-top: -15px;
+  }
