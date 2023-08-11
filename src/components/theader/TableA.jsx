@@ -4,6 +4,7 @@ import { Table } from "@nextui-org/react";
 export default function TableA() {
   const [data, setData] = useState(null)
   const [isLoading, setLoading] = useState(false)
+  var ids=[];
  
   useEffect(() => {
     setLoading(true)
@@ -42,7 +43,7 @@ export default function TableA() {
       <Table.Body>
       {
         data.map((datas)=>(
-          <Table.Row key={datas.inventory_id}>
+          <Table.Row key={datas.inventory_id}  enableSelectAll={true}>
           <Table.Cell>{datas.particular}</Table.Cell>
           <Table.Cell>{datas.price}</Table.Cell>
           <Table.Cell>{datas.quantity}</Table.Cell>

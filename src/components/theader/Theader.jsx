@@ -17,7 +17,7 @@ const Theader = () => {
       <div className='flex d-flex justify-center'>
       <p className='mt-3 text-gray-500'>Action:</p>
       <select className='border-1 outline outline-offset-2 outline-1 h-6 m-3'>
-      <option style={{color:"gray"}}>-----------------------</option>
+      <option style={{color:"gray"}} className='text-gray-500'>--------------------------------</option>
       <option>delete selected inventory</option>
       </select>
         <button className='m-3 ml-1 border-indigo-200 outline outline-offset-2 outline-1'>GO</button>
